@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".swsholat">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="138dp"
+            app:srcCompat="@drawable/ymsholat2" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="1. Makan dan minum dengan sengaja"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Hal ini berdasarkan sabda Rasulullah Shallallaahu alaihi wa Salam : “Sesungguhnya di dalam shalat itu ada kesibukkan tertentu.” (Muttafaq‘alaih) ([1])  Dan ijma’ ulama juga mengatakan demikian."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="2. Berbicara dengan sengaja"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Dari Zaid bin Arqam Radhiallaahu anhu, ia berkata, ’Dahulu kami berbicara di waktu shalat, salah seorang dari kami berbicara kepada temannya yang berada di sampingnya sampai turun ayat: ‘Dan hendaklah kamu berdiri karena Allah (dalam shalatmu) dengan khusyu’([2]), maka kami pun diperintahkan untuk diam dan dilarang berbicara.” (Muttafaq ‘alaih)"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="3. Meninggalkan salah satu rukun shalat"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Hal ini berdasarkan hadits Rasulullah Shallallaahu alaihi wa Salam terhadap orang yang shalatnya tidak tepat: “Kembalilah kamu melaksanakan shalat, sesungguhnya kamu belum  melaksanakan shalat.” (Muttafaq ‘alaih)  Lantaran orang itu telah meninggalkan tuma’ninah dan i’tidal. Padahal kedua hal itu termasuk rukun."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="4. Banyak melakukan gerakan"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="karena hal itu bertentangan dengan pelaksanaan ibadah dan membuat hati dan anggota tubuh sibuk dengan urusan selain ibadah. Adapun gerakan yang sekadarnya saja, seperti memberi isyarat untuk menjawab salam, membetulkan pakaian, menggaruk badan dengan tangan, dan yang semisalnya, maka hal itu tidaklah membatalkan shalat."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="5. Tertawa sampai terbahak-bahak"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Para ulama sepakat mengenai batalnya shalat yang disebabkan tertawa seperti itu. Adapun tersenyum, maka kebanyakan ulama menganggap bahwa hal itu tidaklah merusak shalat seseorang."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="6. Tidak berurutan dalam pelaksanaan shalat"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="seperti mengerjakan shalat Isya sebelum mengerjakan shalat    Maghrib, maka shalat Isya itu batal sehingga dia shalat Maghrib dulu, karena berurutan dalam melaksanakan shalat-shalat itu adalah wajib, dan begitulah perintah pelaksanaan shalat itu."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

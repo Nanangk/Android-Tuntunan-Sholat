@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nank.tuntunansholat">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/iconku"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/iconku"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".depan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".wudhu"
+            android:label="Wudhu" />
+        <activity
+            android:name=".rukunsholat"
+            android:label="Rukun Sholat" />
+        <activity android:name=".tuntunansholat" />
+        <activity
+            android:name=".swsholat"
+            android:label="Syarat Wajib Sholat" />
+        <activity
+            android:name=".sssholat"
+            android:label="Syarat Sah Sholat" />
+        <activity
+            android:name=".ymsholat"
+            android:label="Yang Membatalkan Sholat" />
+        <activity
+            android:name=".pdiri"
+            android:label="Pelacak Diri" />
+        <activity android:name=".tabel"
+            android:label="Kumpulan Niat Sholat"></activity>
+    </application>
+
+</manifest>

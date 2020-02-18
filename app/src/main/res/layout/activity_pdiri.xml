@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pdiri">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/ma"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="138dp"
+            android:onClick="viewAll"
+            app:srcCompat="@drawable/pdiri2" />
+
+        <TextView
+            android:id="@+id/textView60"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="@color/hitam"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Sudah Sholat Hari Ini?" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+
+            android:orientation="vertical">
+
+
+
+            <CheckBox
+                android:id="@+id/csubuh"
+                android:layout_width="121dp"
+                android:layout_height="57dp"
+                android:text="@string/Subuh"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="44dp"
+                tools:layout_editor_absoluteY="27dp" />
+
+            <CheckBox
+                android:id="@+id/czuhur"
+                android:layout_width="124dp"
+                android:layout_height="51dp"
+                android:text="@string/zuhur"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="44dp"
+                tools:layout_editor_absoluteY="78dp" />
+
+            <CheckBox
+                android:id="@+id/casar"
+                android:layout_width="122dp"
+                android:layout_height="67dp"
+                android:text="@string/Asar"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="44dp"
+                tools:layout_editor_absoluteY="135dp" />
+
+            <CheckBox
+                android:id="@+id/cmagrib"
+                android:layout_width="126dp"
+                android:layout_height="57dp"
+                android:text="@string/Magrib"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="44dp"
+                tools:layout_editor_absoluteY="194dp" />
+
+            <CheckBox
+                android:id="@+id/cisya"
+                android:layout_width="121dp"
+                android:layout_height="66dp"
+                android:text="@string/Isya"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="44dp"
+                tools:layout_editor_absoluteY="250dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/corner_withcolor"
+                android:onClick="simpan"
+                android:paddingLeft="45dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:paddingRight="45dp"
+                android:text="SUDAH" />
+
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

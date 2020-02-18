@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".swsholat">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="138dp"
+            app:srcCompat="@drawable/kumpulanniat" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/textView56"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="1. Niat sholat Subuh"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView72"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="أُصَلِّى فَرْضَ الصُّبْح رَكَعتَيْنِ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لله تَعَالَى"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/textView79"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="“Usholli Fardlon Shubhi Rok’ataini Mustaqbilal Qiblati Adaa-an Lillahi ta’aala”"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView80"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Artinya: "
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView81"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="“Aku niat melakukan sholat fardu subuh 2 rakaat, sambil menghadap qiblat, saat ini, karena Allah ta’ala”"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView82"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="2. Niat Sholat Dhuhur"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView108"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="اُصَلِّيْ فَرْضَ الظُّهْرِ أَرْبَعَ رَكَعاَتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لله تَعَالَى"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/textView109"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="“Usholli Fardlon dhuhri Arba’a Rok’aataim Mustaqbilal Qiblati Adaa-an Lillahi ta’aala”"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView110"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Artinya: "
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView111"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Aku niat melakukan sholat fardu dhuhur 4 rakaat, sambil menghadap qiblat, saat ini, karena Allah ta’ala”"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView112"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="3. Niat Sholat Ashar"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView113"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="أُصَلِّى فَرْضَ العَصْرِأَرْبَعَ رَكَعاَتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لله تَعَالَ"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/textView129"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="“Usholli Fardlol Maghribi Tsalaatsa Roka’aataim Mustaqbilal Qiblati Adaa-an Lillahi ta’aala”"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView142"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Artinya: "
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView143"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Aku niat melakukan sholat fardu ashar 4 rakaat, sambil menghadap qiblat, saat ini, karena Allah ta’ala”"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView144"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="4. Niat Sholat Maghrib"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView145"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="أُصَلِّى فَرْضَ المَغْرِبِ ثَلاَثَ رَكَعاَتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لله تَعَالَى"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/textView146"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="“Usholli Fardlol Ashri Arba’a Roka’aataim Mustaqbilal Qiblati Adaa-an Lillahi ta’aala”  Arti Niat Sholat Ashar"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView147"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Artinya: "
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView148"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Aku niat melakukan sholat fardu maghrib 3 rakaat, sambil menghadap qiblat, saat ini, karena Allah ta’ala”"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView149"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="5. Niat sholat Isya"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView150"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="أُصَلِّى فَرْضَ العِشَاء ِأَرْبَعَ رَكَعاَتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لله تَعَالَى"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/textView151"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="“Usholli Fardlol I’syaa-i Arba’a Roka’aataim Mustaqbilal Qiblati Adaa-an Lillahi ta’aala”"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView152"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Artinya: "
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView153"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Aku niat melakukan sholat fardu isya 4 rakaat, sambil menghadap qiblat, saat ini, karena Allah ta’ala”"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

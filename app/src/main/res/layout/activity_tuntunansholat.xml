@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tuntunansholat">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="421dp"
+            android:layout_height="153dp"
+            app:srcCompat="@drawable/tsholat" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView49"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="1. Niat"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/sholat1" />
+
+                <TextView
+                    android:id="@+id/textView57"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Tata cara pertama adalah melafalkan niat. Dalam membaca niat sholat bisa dibaca dengan suara lirih atau dibaca dalam hati. Dianjurkan untuk tidak mengucapkan niat dengan suara keras."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView58"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Untuk niat sholat wajib memiliki niat yang berbeda-beda. Berikut niat sholat wajib."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/corner_withcolor"
+                    android:paddingLeft="45dp"
+                    android:paddingRight="45dp"
+                    android:onClick="gogo"
+                    android:text="Kumpulan Niat Sholat"
+                    android:textAlignment="center"
+                    android:textColor="#fff" />
+
+                <TextView
+                    android:id="@+id/textView59"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="2. Takbiratul Ihrom"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <ImageView
+                    android:id="@+id/imageView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/takbir" />
+
+                <TextView
+                    android:id="@+id/textView61"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Setelah membaca niat sholat kemudian dilanjutkan dengan membaca takbiratul Ihram "
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView62"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="“Allahu Akbar”"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView63"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="3. Membaca Doa Iftitah "
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <ImageView
+                    android:id="@+id/imageView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/alfa" />
+
+                <TextView
+                    android:id="@+id/textView64"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Setelah takbiratul ihram, Anda harus membaca doa iftitah. Terdapat dua versi bacaan doa iftitah dan Anda bisa menggunakan salah satu diantaranya."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView65"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="اللهُ اَكْبَرُ كَبِرًا وَالْحَمْدُ لِلهِ كَشِيْرًا وَسُبْحَانَ اللهِ بُكْرَةً وَاَصِيْلًا . اِنِّى وَجَّهْتُ وَجْهِيَ لِلَّذِيْ فَطَرَالسَّمَاوَاتِ وَالْااَرْضَ حَنِيْفًا مُسْلِمًا وَمَا اَنَا مِنَ الْمُشْرِكِيْنَ . اِنَّ صَلَاتِيْ وَنُسُكِيْ وَمَحْيَايَ وَمَمَاتِيْ لِلهِ رَبِّ الْعَا لَمِيْنَ . لاَ شَرِيْكَ لَهُ وَبِذَ لِكَ اُمِرْتُ وَاَنَ مِنَ الْمُسْلِمِيْنَ ."
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/textView66"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Allaahu akbaru kabiira walhamdulilaahi katsiro, wa Subhaanallaahi Bukratawn wa’ashiila, innii wajjahtu wajhiya lilladzii fatharas samaawaati wal ardha haniifan musliman wamaa anaa minal musyrikiin. Inna shalaatii wa nusukii wa mahyaaya wa mamaatii lillaahi Rabbil ‘aalamiina. Laa syariikalahu wa bidzaalika umirtu wa anaa minal muslimiin."
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView73"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Artinya: "
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView67"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Allah maha besar dengan sebesar besarnya. Segala puji yang sebanyak banyaknya bagi Allah. Maha Suci Allah pada pagi dan petang hari. Aku menghadapkan wajahku kepada Tuhan yang telah menciptakan langit dan bumi dengan segenap kepatuhan dan kepasrahan diri, dan aku bukanlah termasuk orang orang yang menyekutukanNya."
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView68"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="4. Membaca Surah Al-Fatihah"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <ImageView
+                    android:id="@+id/imageView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/fat" />
+
+                <TextView
+                    android:id="@+id/textView69"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Setelah membaca doa iftitah, kemudian dilanjutkan dengan membaca surah Al-Fatihah."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView70"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ الرَّحْمَٰنِ الرَّحِيم مَالِكِ يَوْمِ الدِّينِ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/textView74"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="“Alhamdu lilla_hi rabbil ‘a_lamin. Ar Rahmaanirrahiim. Maaliki yaumiddiin. Iyyaaka na’budu wa iyyaaka nasta’iin. Ihdinash-shirraatal musthaqiim. Shiraathal ladziina an’amta ‘alaihim ghairil maghduubi ‘alaihim waladh-dhaalliin”"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView75"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Artinya: "
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView76"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="“Segala puji bagi Allah, Tuhan seluruh alam, Yang Maha Pengasih, Lago Maha Penyayang, Pemilik hari pembalasan. Hanya kepada Engkaulah kami menyembah dan hanya kepada Engkaulah kami mohon pertolongan. Tunjukilah kami jalan yang lurus (yaitu) jalan orang-orang yang telah Engkau beri nikmat kepadanya; bukan (jalan) mereka yang dimurkai, dan bukan (pula jalan) mereka yang sesat.”"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView77"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="5. Membaca salah satu surah yang ada di Al Qur’an"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView78"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Setelah membaca surat Al Fatihah, kemudian dilanjutkan dengan membaca Ayat Pada Al-Quran. Sangat disarankan membaca Surah-Surah pendek seperti Surat Al Ikhlas, Al ‘Asr, dan An Nasr."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView83"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="6. Ruku"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <ImageView
+                    android:id="@+id/imageView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ruku" />
+
+                <TextView
+                    android:id="@+id/textView84"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Membaca doa ketika ruku, bacaan doa ruku dibaca sebanyak 3 kali."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView85"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="سُبْحَانَ رَبِّىَ الْعَظِيمِ"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/textView86"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="“Subhaana robbiyal ‘adhiimi wabihamdih.”"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView87"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Artinya: "
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView88"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="“Mahasuci Tuhanku yang Mahaagung dan segala puji bagi-Nya.”"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView89"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="7. I’tidal"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <ImageView
+                    android:id="@+id/imageView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/itidal" />
+
+                <TextView
+                    android:id="@+id/textView90"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Setelah ruku kemudian bangkit dari ruku dengan membaca “SAMI’ALLOOHU LIMAN HAMIDAH”.  Kemudian setelah posisi berdiri membaca bacaan berikut."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView95"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Bacaan ini diriwayatkan oleh Imam Muslim:"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView91"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="رَبَّنَا لَكَ الْحَمْدُ مِلْءَ السَّمَوَاتِ وَالأَرْضِ وَمِلْءَ مَا شِئْتَ مِنْ شَىْءٍ بَعْدُ"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/textView92"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="“Rabbanaa Lakal Hamdu Mil’us Samaawati Wa Mil’ul Ardhi Wa Mil ‘Umaasyi’ta Min Syai’in Ba’du.”"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView93"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Artinya: "
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView94"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Wahai Tuhan kami, segala puji bagiMu, sepenuh langit dan sepenuh bumi dan sepenuh apa-apa yang Engkau kehendaki setelah itu.”"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView96"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="8. Sujud Pertama"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <ImageView
+                    android:id="@+id/imageView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/sujud" />
+
+                <TextView
+                    android:id="@+id/textView97"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Turun setelah membaca Iktidal, kemudian membaca takbir (Allahu akbar). Lalu dilanjutkan dengan melakukan sujud.  Ketika sujud membaca doa sujud, bacaan doa sujud dibaca sebanyak 3 kali."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView98"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="سُبْحَانَ رَبِّىَ الْأَعْلَى وَبِحَمْدِهِ"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/textView99"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="“Subhaana robbiyal ‘a’la wabihamdih”"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView100"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Artinya: "
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView101"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="“Mahasuci Tuhanku yang Mahatinggi dan segala puji bagi-Nya.”"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView102"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="9. Duduk Iftirasy atau diantara dua sujud"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <ImageView
+                    android:id="@+id/imageView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/dks" />
+
+                <TextView
+                    android:id="@+id/textView103"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Bacaan Duduk Iftirasy  "
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView104"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="رَبِّ اغْفِرْ لِيْ وَارْحَمْنِيْ وَاجْبُرْنِيْ وَارْفَعْنِيْ وَارْزُقْنِيْ وَاهْدِنِيْ وَعَافِنِيْ وَاعْفُ عَنِّيْ"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/textView105"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="“Rabbighfirlii warhamnii wajburnii warfa’nii warzuqnii wahdinii wa ‘aafinii wa’fu ‘annii.”"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView106"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Artinya: "
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView107"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="“Ya Allah, ampunilah aku, kasihanilah aku, cukupilah aku, angkatlah derajatku, berikanlah rejeki kepadaku, berikanlah petunjuk kepadaku, berilah kesehatan kepadaku dan ampunilah aku.”"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView114"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="10. Sujud kedua "
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <ImageView
+                    android:id="@+id/imageView25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/sujud" />
+
+                <TextView
+                    android:id="@+id/textView115"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Setelah selesai membaca bacaan duduk iftirasy, kemudian membaca takbir (Allahu akbar). Lalu dilanjutkan dengan melakukan sujud kedua.  Ketika sujud kedua membaca doa sujud, bacaan doa sujud dibaca sebanyak 3 kali."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView116"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="سُبْحَانَ رَبِّىَ الْأَعْلَى وَبِحَمْدِهِ"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/textView117"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="“Subhaana robbiyal ‘a’la wabihamdih”"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView118"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Artinya: "
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView119"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="“Mahasuci Tuhanku yang Mahatinggi dan segala puji bagi-Nya.”"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView120"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="11. Duduk Tasyahud Awal"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <ImageView
+                    android:id="@+id/imageView26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/dks" />
+
+                <TextView
+                    android:id="@+id/textView121"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Bacaan Duduk Tasyahud Awal  "
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView122"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="اَلتَّحِيَّاتُ الْمُبَارَكَاتُ الصَّلَوَاتُ الطَّيِّبَاتُ ِللهِ. اَلسَّلاَمُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ. اَلسَّلاَمُ عَلَيْنَا وَعَلَى عِبَادِ اللهِ الصَّالِحِيْنَ. أَشْهدُ اَنْ لاَإِلَهَ إِلاَّ اللهُ وَاَشْهَدُ أَنَّ مُحَمَّدًا رَسُوْلُ اللهِ"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/textView123"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="At-tahiyyaatul mubaarakatush shalawaatuth thayyibaatulillaahi. Assalaamu ‘alaika ayyuhan-nabiyyu wa rahmatullaahi wa barakaatuhu. Assalaamu ‘alainaa wa ‘alaa ‘ibaadillaahish-shaalihiina. Asyhadu an laa ilaaha illallaahu wa asyhadu anna Muhammadar Rasuulullaahi”."
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView124"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Artinya: "
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView125"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="“Segala kehormatan, keberkahan, rahmat dan keselamatan, serta kebaikan hanyalah kepunyaan Allah. Keselamatan, rahmat dan berkah dari Allah semoga tetap tercurah atasmu, wahai Nabi (Muhammad). Keselamatan, rahmat dan berkah dari Allah semoga juga tercurah atas kami, dan juga atas seluruh hamba Allah yang sholeh. Aku bersaksi bahwa tiada Tuhan selain Allah dan bahwa Muhammad adalah utusan Allah.”"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView126"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Pada sholat yang memiliki rakaat lebih dari 2, seperti sholat dhuhur, asyar, maghrib dan isya, setelah selesai melakukan “Duduk Tasyahud Awal” maka bangkit untuk melanjutkan ke rakaat berikutnya."
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView127"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="12. Duduk Tawaruk atau Tasyahud Akhir"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <ImageView
+                    android:id="@+id/imageView27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/dta" />
+
+                <TextView
+                    android:id="@+id/textView128"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Setelah sujud kedua pada rakaat terakhir, maka dilanjutkan dengan melakukan Duduk Tasyahud Akhir."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView133"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Bacaan duduk tasyahud akhir"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView134"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Pada bacaan duduk tasyahud akhir sama dengan bacaan ketika duduk tasyahud awal. Hanya pada bacaan duduk tasyahud akhir ditambahkan dengan membaca “Sholawat Atas Nabi” setelah membaca bacaan tasyahud."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView135"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Bacaan sholawat nabi"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView130"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="“Allohumma solli ‘alaa muhammad, wa ‘alaa aali muhammad, kamaa sollaita ‘alaa aali ibroohim, wa baarik ‘alaa muhammad, wa ‘alaa aali muhammad, kamaa baarokta ‘alaa aali ibroohim, fil ‘aalamiina innaka hamiidummajiid”."
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView131"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Artinya: "
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView132"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="“Ya Allah, limpahkanlah rahmat dan keselamatan untuk Nabi Muhammad. Dan juga limpahkanlah rahmat dan keselamatan kepada keluarga Muhammad, sebagaimana telah Engkau limpahkan rahmat dan keselamatan kepada Ibrahim dan kepada keluarga Ibrahim. Limpahkanlah keberkahan kepada Muhammad dan kepada keluarga Muhammad, sebagaimana Engkau telah melimpahkan keberkahan kepada Ibrahim dan kepada keluarga Ibrahim. Di seluruh alam semesta, sesungguhnya Engkau adalah Maha Terpuji lagi Maha Agung."
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView136"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="13. Salam"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <ImageView
+                    android:id="@+id/imageView28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/salam" />
+
+                <TextView
+                    android:id="@+id/textView137"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Setelah membaca sholawat nbi, maka dilanjutkan dengan mengucapkan Salam ketika menoleh ke kanan dan ke kiri."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView138"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/textView139"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="“Semoga keselamatan dan rahmat Allah dilimpahkan kepadamu.”"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView140"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Artinya: "
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView141"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="“Segala kehormatan, keberkahan, rahmat dan keselamatan, serta kebaikan hanyalah kepunyaan Allah. Keselamatan, rahmat dan berkah dari Allah semoga tetap tercurah atasmu, wahai Nabi (Muhammad). Keselamatan, rahmat dan berkah dari Allah semoga juga tercurah atas kami, dan juga atas seluruh hamba Allah yang sholeh. Aku bersaksi bahwa tiada Tuhan selain Allah dan bahwa Muhammad adalah utusan Allah.”"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".depan">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="4dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="424dp"
+                    android:layout_height="167dp"
+                    android:onClick="Klik"
+                    app:srcCompat="@drawable/wudhu" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="433dp"
+                    android:layout_height="159dp"
+                    android:onClick="Klik2"
+                    app:srcCompat="@drawable/sholat" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="446dp"
+                    android:layout_height="163dp"
+                    android:onClick="Klik3"
+                    app:srcCompat="@drawable/tuntunansholat" />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="421dp"
+                    android:layout_height="133dp"
+                    android:onClick="Klik4"
+                    app:srcCompat="@drawable/swsholat" />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="421dp"
+                    android:layout_height="133dp"
+                    android:onClick="Klik5"
+                    app:srcCompat="@drawable/sssholat" />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="421dp"
+                    android:layout_height="133dp"
+                    android:onClick="Klik6"
+                    app:srcCompat="@drawable/ymsholat" />
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="421dp"
+                    android:layout_height="133dp"
+                    android:onClick="Klik7"
+                    app:srcCompat="@drawable/pdiri" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

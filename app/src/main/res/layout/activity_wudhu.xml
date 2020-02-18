@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".swsholat">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="138dp"
+            app:srcCompat="@drawable/twudhu" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="1. Membaca bismillahirrohmanirrohim"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="بِسۡمِ ٱللهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِيمِ"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/textView3134"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text='"bismillahirrohmanirrohim" sambil mencuci kedua belah tangan sampai pergelangan tangan hingga bersih'
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/wudhu1" />
+
+                <TextView
+                    android:id="@+id/textView211"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="2. Berkumur-kumur"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Berkumur-kumur sambil membersihkan gigi jika ada sisa-sisa makanan"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/imageView233"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/wudhu2" />
+
+                <TextView
+                    android:id="@+id/textView37"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="3.  Mencuci lubang hidung"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Mencuci lubang hidung 3 kali dari kotoran yang ada didalam"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/wudhu3" />
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="4. Mencuci muka 3 kali"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Mencuci muka 3 kali, mulai dari tempat tumbuhnya rambut kepala hingga bawah dagu dan dari telinga kanan hingga telinga kiri, sambil niat wudhu. Lafadznya :"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="نَوَيْت اْلوُضُوْءَلِرَفْعِ اْلحَدَثِ اْلَا صْغَرِفَرْضًا ِللهِ تَعَا لَي"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Nawaitul Wudluu a Liraf'il Hadastil Ashghari Fardlan Lillahita'ala"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text='Artinya : "Aku niat berwudhu untuk menghilangkan hadas kecil, fardhu karena Allah"'
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/wudhu4" />
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="5. Mencuci kedua belah tangan"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView45"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Kemudian mencuci kedua belah tangan hingga siku-siku 3 kali"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/wudhu5" />
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="6. Membasahi sebagian rambut kepala"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView47"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text=" Kemudian membasahi sebagian rambut kepala 3 kali"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/wudhu6" />
+
+                <TextView
+                    android:id="@+id/textView48"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="7. Mencuci kedua telinga "
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/wudhu7" />
+
+                <TextView
+                    android:id="@+id/textView50"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="8. Mencuci kedua kaki"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView51"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Dan yang terakhir mencuci kedua kaki hingga diatas mata kaki 3 kali."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/wudhu8" />
+
+                <TextView
+                    android:id="@+id/textView52"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Setelah berwudhu, disunnahkan membaca doa setelah wudhu dan menghadap kiblat sambil mengangkat kedua tangan. Berikut ini adalah lafadz doa setelah wudhu beserta pengucapan dan artinya :"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView53"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="اَشْهَدُ اَنْ لآّاِلَهَ اِلاَّاللهُ وَحْدَهُ لاَشَرِيْكَ لَهُ وَاَشْهَدُ اَنَّ مُحَمَّدًاعَبْدُهُ وَرَسُوْلُهُ. اَللهُمَّ اجْعَلْنِىْ مِنَ التَّوَّابِيْنَ وَاجْعَلْنِىْ مِنَ الْمُتَطَهِّرِيْنَ وَاجْعَلْنِىْ مِنْ عِبَا دِكَ الصَّا لِحِيْنَ."
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/textView54"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Asyhadu Alla Ila Haillallaah Wahdahu Laa Syariika Lahu Wa Asyhadu Anna Muhammadan Abduhu Wa Rasuuluhu, Alloohummaj'alni Minattawwaabiina' Waj'alni Minal Mu Tathahhiriina Waj'alni Min Ibadi Kash Shaalihiina"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView55"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text='Artinya : "Aku bersaksi tiada Tuhan melainkan Allah dan tidak ada yang menyekutukan bagi-Nya. Dan aku bersaksi bahwa Nabi Muhammad adalah utusan-Nya. Ya Allah jadikanlah aku orang yang ahli taubat, dan jadikanlah aku orang yang suci dan jadikanlah aku dari golongan orang-orang yang shaleh"'
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

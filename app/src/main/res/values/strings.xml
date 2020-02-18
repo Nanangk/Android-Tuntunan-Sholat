@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tuntunan Sholat</string>
+    <string name="Subuh">Subuh</string>
+    <string name="zuhur">Zuhur</string>
+    <string name="Asar">Asar</string>
+    <string name="Magrib">Magrib</string>
+    <string name="Isya">Isya</string>
+</resources>

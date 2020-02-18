@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".swsholat">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="138dp"
+            app:srcCompat="@drawable/swsholat2" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="1. Islam"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Syarat Wajib Mengerjakan Shalat Fardhu yang pertama ialah Beragama Islam, atau telah memeluk Agama Islam karena telah dijelaskan didalam Al Qur’an bahwa setiap Muslim – Muslimah itu telah diwajibkan untuk mengerjakan Sholat, sehingga jika Seorang Non Muslim maka tidak diwajibkan untuk mengerjakan Shalat Wajib Lima Waktu."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="2. Baligh (Dewasa)"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Untuk Syarat Wajib Melaksanakan Shalat Fardhu kedua ialah sudah Baligh atau sudah Dewasa. Konteks Baligh (Dewasa) didalam Ajaran Islam sendiri telah dijelaskan bahwa Ciri – Ciri Seseorang telah Dewasa (Baligh) antara lain sudah menginjak Umur kurang lebih 12 tahun – 15 tahun, sudah mengalami Mimpi Basah bagi Muslim Laki – Laki, dan sudah mulai keluar Darah Haid atau sering disebut dengan Datang Bulan untuk Muslimah Perempuan."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="3. Berakal"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Syarat Wajib Shalat Wajib Yang Ketiga ialah Berakal (Tidak Gila), karena Shalat merupakan Hubungan Manusia dengan Allah maka Manusia yang sehat Akalnya (Berakal) yang diwajibkan untuk mengerjakan Shalat Wajib Lima Waktu. Oleh karena itu bagi Seseorang Muslim – Muslimah yang mengalami kelainan Akal atau tidak sehat akalnya (Gila) maka tidak diwajibkan untuk mengerjakan Shalat Wajib Lima Waktu."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".swsholat">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="138dp"
+            app:srcCompat="@drawable/sssholat2" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="1. Suci Badan Dari Hadats dan Najis"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Untuk Syarat Sah Menunaikan Shalat Wajib Lima Waktu yang pertama ialah suci dari Hadats dan Najis. Dalam konteks ini dengan Berwudhu sebelum mengerjakan Shalat untuk Suci dari Hadats dan Najis Kecil, sedangkan Mandi Wajib untuk bersuci dari Hadats Besar. Terdapat Sabda Nabi Muhammad Shallallahu alaihi wasallam dari Hadits Ibnu Umar yang berbunyi : ” Allah tidak akan menerima Sholat yg dikerjakan tanpa Bersuci ”."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="2. Menutup Aurat Dengan Pakaian Yang Suci"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Untuk Syarat Sah Melaksanakan Shalat Fardhu yang kedua ialah menutup Aurat dengan Pakaian yang suci. Terdapat Hadits Shahih dari Aisyah Ra bahwa Nabi Muhammad Shallallahu alaihi wasallam bersabda : ” Allah tidak akan menerima Sholat-nya seorang Baligh (Dewasa) kecuali dengan mengenakan Khimar ”."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="3. Berada Ditempat Yang Suci"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Maksud dari Syarat Sah Shalat Fardhu yang ketiga ini ialah mengerjakan Shalat ditempat – tempat yang Suci dari Hadats dan Najis. Perlu kalian ketahui bahwa terdapat tempat – tempat yang dilarang untuk mengerjakan Shalat yakni shalat ditempat pembuangan sampah, tempat penyembelihan hewan, ditengah – tengah jalan, shalat di kamar mandi, shalat di Kuburan, shalat di Kandang Unta dan shalat diatas bangunan Ka’bah Mekkah."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="4. Mengetahui Masuk Waktu Shalat"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Syarat Sah Sholat Wajib Lima Waktu Yang Keempat adalah mengetahui waktu shalat wajib lima waktu tersebut, karena Shalat Wajib Lima Waktu (Shalat Subuh, Shalat Dzuhur, Shalat Ashar, Shalat Maghrib dan Shalat Isya) mempunyai waktu yang berbeda – beda sehingga seorang Muslim – Muslimah harus mengetahui Masuknya Waktu Shalat Wajib tersebut, sehingga tidak akan Sah Shalatnya jika mengerjakan Shalat Wajib ketika belum masuk waktunya shalat."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lavender"
+                    android:text="5. Menghadap Kiblat"
+                    android:textColor="@color/aqua"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Macam Syarat Sah Shalat Wajib Lima Waktu yang terakhir ialah mengerjakan Shalat menghadap ke Arah Kiblat. Dalam hal ini bisa kalian lihat Firman Allah Subhanahu wa ta’ala didalam Al Qur’an Surat Al Baqarah, Ayat 150 yang berbunyi : ” …. maka palingkan-lah wajahmu ke Masjidil haram. Dan dimana saja km sekalian berada, maka palingkanlah wajahmu ke arahnya…. (QS. Al Baqarah, Ayat 150) ”."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
